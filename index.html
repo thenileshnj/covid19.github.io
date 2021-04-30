@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title> Covid-19 india Report</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="mainBody">
+        <div class="hd1 container">
+            <h1 class=" text-center "> Covid-19 india Report </h1>
+        </div>
+
+        
+
+        <div class="total container text-center p-3 m-3">
+            <div class="container ">
+                <div class="row">
+                    <h2 class="p-2 col col-12" id="indSt"></h2>
+                    <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="indAct"></p>
+                    <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="indRec"></p>
+                    <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="indDeaths"></p>
+                    <h3 class="p-2 col col-12" id="indTime"></h3>
+                </div>
+            </div>
+        </div>
+
+       
+
+
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="mhSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mhAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mhRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mhDeaths"></p>
+                                <h3 class="p-2 col col-12" id="mhTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="keSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="keAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="keRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="keDeaths"></p>
+                                <h3 class="p-2 col col-12" id="keTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="kaSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="kaAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="kaRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="kaDeaths"></p>
+                                <h3 class="p-2 col col-12" id="kaTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="apSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="apAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="apRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="apDeaths"></p>
+                                <h3 class="p-2 col col-12" id="apTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="tnSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="tnAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="tnRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="tnDeaths"></p>
+                                <h3 class="p-2 col col-12" id="tnTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="dlSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="dlAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="dlRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="dlDeaths"></p>
+                                <h3 class="p-2 col col-12" id="dlTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="upSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="upAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="upRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="upDeaths"></p>
+                                <h3 class="p-2 col col-12" id="upTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="wbSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="wbAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="wbRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="wbDeaths"></p>
+                                <h3 class="p-2 col col-12" id="wbTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="osSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="osAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="osRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="osDeaths"></p>
+                                <h3 class="p-2 col col-12" id="osTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="rjSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="rjAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="rjRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="rjDeaths"></p>
+                                <h3 class="p-2 col col-12" id="rjTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="cgSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="cgAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="cgRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="cgDeaths"></p>
+                                <h3 class="p-2 col col-12" id="cgTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="tsSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="tsAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="tsRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="tsDeaths"></p>
+                                <h3 class="p-2 col col-12" id="tsTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="hrSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="hrAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="hrRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="hrDeaths"></p>
+                                <h3 class="p-2 col col-12" id="hrTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="gjSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="gjAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="gjRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="gjDeaths"></p>
+                                <h3 class="p-2 col col-12" id="gjTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="brSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="brAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="brRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="brDeaths"></p>
+                                <h3 class="p-2 col col-12" id="brTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="mpSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mpAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mpRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mpDeaths"></p>
+                                <h3 class="p-2 col col-12" id="mpTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="asSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="asAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="asRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="asDeaths"></p>
+                                <h3 class="p-2 col col-12" id="asTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="pbSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="pbAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="pbRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="pbDeaths"></p>
+                                <h3 class="p-2 col col-12" id="pbTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="jkSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="jkAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="jkRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="jkDeaths"></p>
+                                <h3 class="p-2 col col-12" id="jkTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="jhSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="jhAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="jhRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="jhDeaths"></p>
+                                <h3 class="p-2 col col-12" id="jhTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="utSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="utAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="utRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="utDeaths"></p>
+                                <h3 class="p-2 col col-12" id="utTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="hpSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="hpAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="hpRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="hpDeaths"></p>
+                                <h3 class="p-2 col col-12" id="hpTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="gaSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="gaAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="gaRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="gaDeaths"></p>
+                                <h3 class="p-2 col col-12" id="gaTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="pySt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="pyAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="pyRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="pyDeaths"></p>
+                                <h3 class="p-2 col col-12" id="pyTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="trSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="trAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="trRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="trDeaths"></p>
+                                <h3 class="p-2 col col-12" id="trTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="mnSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mnAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mnRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mnDeaths"></p>
+                                <h3 class="p-2 col col-12" id="mnTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="chSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="chAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="chRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="chDeaths"></p>
+                                <h3 class="p-2 col col-12" id="chTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="arSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="arAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="arRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="arDeaths"></p>
+                                <h3 class="p-2 col col-12" id="arTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="total container text-center p-3 m-3">
+                        <div class="container ">
+                            <div class="row">
+                                <h2 class="p-2 col col-12" id="mlSt"></h2>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mlAct"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mlRec"></p>
+                                <p class="p-2 col col-4 col-lg-4 col-md-4 col-sm-4" id="mlDeaths"></p>
+                                <h3 class="p-2 col col-12" id="mlTime"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+
+    <script src="myJs.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
